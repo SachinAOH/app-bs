@@ -1,0 +1,84 @@
+
+{
+  "short_name" : "Shivpuri Samachar",
+  "description" : "www.shivpurisamachar.com",
+  "start_url" : "https://sachinaoh.github.io/app-ss/",
+  "name" : "Shivpuri Samachar",
+  "scope" : "https://sachinaoh.github.io/app-ss/",
+  "display" : "standalone",
+  "orientation" : "portrait",
+    "theme_color": "#3367D6",
+  "lang" : "English",
+    "icons": [
+{
+       "src": "https://1.bp.blogspot.com/-W91V_KQayeE/XrA7YsB3xaI/AAAAAAAAAG4/Nwl9K4x3w6Ec9EwOPskmnk5mIATR7rXSQCNcBGAsYHQ/s1600/192x192.jpg",
+       "type": "image/png",
+       "sizes": "192x192"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-E3Yeodc4PH4/XrA7YSYV0rI/AAAAAAAAAG0/2d4DSs166O0npQDoUusfTIdbFmVl_jmhwCNcBGAsYHQ/s1600/180x180.jpg",
+       "type": "image/png",
+       "sizes": "180x180"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-sVfC-6_EX9A/XrA7X0BybDI/AAAAAAAAAGs/grRz_YX1p0QHi43DNETxQjUxR5KX97L4ACNcBGAsYHQ/s1600/152x152.jpg",
+       "type": "image/png",
+       "sizes": "152x152"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-LybgolAhw0o/XrA7WgFYa_I/AAAAAAAAAGg/XQyVhRu8UUQpDq9tK9Ozk-iI19SKXjUpACNcBGAsYHQ/s1600/144x144.jpg",
+       "type": "image/png",
+       "sizes": "144x144"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-6hoQUJKrX2E/XrA7W7OaSuI/AAAAAAAAAGo/Kz1qxKknaDcdYgEAwhrFC6LmvIYOjGSJgCNcBGAsYHQ/s1600/120x120.jpg",
+       "type": "image/png",
+       "sizes": "120x120"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-ztX_OXs2IZA/XrA7WjswXlI/AAAAAAAAAGk/NqejCrQYgTsSOSgECkxyY2rd3QmYsT1-QCNcBGAsYHQ/s1600/114x114.jpg",
+       "type": "image/png",
+       "sizes": "114x114"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-UC8aJKVPbys/XrA7aSo4fzI/AAAAAAAAAHM/fEoBSFDqWx4enP2WsPyIhEid9XawpmjkQCNcBGAsYHQ/s1600/96x96.jpg",
+       "type": "image/png",
+       "sizes": "96x96"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-KwQide03X_4/XrA7ZxjN4BI/AAAAAAAAAHI/VCN2FLOJ7nsRnMgfQkEIqE7OQOu4C9maQCNcBGAsYHQ/s1600/76x76.jpg",
+       "type": "image/png",
+       "sizes": "76x76"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-1xu78QkiASc/XrA7ZU1dGNI/AAAAAAAAAHE/aTeXuEo0dEQ8T_JnseQbKmVfavsUXN_9ACNcBGAsYHQ/s1600/72x72.jpg",
+       "type": "image/png",
+       "sizes": "72x72"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-5RFP3oTCIqQ/XrA7ZPErdjI/AAAAAAAAAHA/PTAN2Py4QVoHkVWz4bnzpodpAY6qdtxiwCNcBGAsYHQ/s1600/60x60.jpg",
+       "type": "image/png",
+       "sizes": "60x60"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-EUsRNiQsXqg/XrA7aijIxII/AAAAAAAAAHQ/PeNRywyQa7IuPoBiwPzAjrZ8MUK-42SCgCNcBGAsYHQ/s1600/97x97.jpg",
+       "type": "image/png",
+       "sizes": "57x57"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-OqJG8iopwqY/XrA7ZL6WptI/AAAAAAAAAG8/CrLg5fUsiYUHNaXj63GBv8dDHbR-nQtXACNcBGAsYHQ/s1600/32x32.jpg",
+       "type": "image/png",
+       "sizes": "32x32"
+      },
+      {
+       "src": "https://1.bp.blogspot.com/-0NRbzpZ3qCg/XrA7YBFXCjI/AAAAAAAAAGw/uuexQrvShVc7TViSzuVXQyO4XTfybFoYQCNcBGAsYHQ/s1600/16x16.jpg",
+       "type": "image/png",
+       "sizes": "16x16"
+      },
+    {
+      "src": "https://host.auraiya.online/pwa/icons/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+  }

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auraiya Online</title>
+  <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.7.0/css/all.css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+
+<style>
+html, body{
+  width: 600px;
+  margin: auto;
+}
+
+.categories{
+ border: 1px solid #f6f6f6; 
+ padding: 15px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.text-topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categories-container a {
+  width: calc(50% - 8px);
+}
+.category {
+  height: 110px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px -10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 18px !important;
+}
+.category h2 {
+  margin: 0;
+  position: absolute;
+  bottom: 6px;
+  right: 12px;
+  font-size: 23px;
+  color: #1a73e8;
+}
+.category-title {
+  margin: 20px 0 10px;
+}
+
+.drawer {
+  margin: auto;
+  display:flex;
+  background-color: white;
+  height:80px;
+  position: fixed;
+  bottom: 0px;
+  width: 600px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  z-index: 5;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+
+}
+
+
+.drawer span {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #1A73E8;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.drawer span i:hover {
+  transform: scale(1.2);
+  border-bottom: 2px solid #1a73e8;
+}
+
+.drawer span i {
+  transition: all 0.3s ease;
+  padding-bottom: 8px;
+}
+
+
+
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #1a73e8;
+  color: white;
+  top: -25px;
+  position: absolute;
+  transform: rotate(-45deg);
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.1s;
+  opacity: 0.9;
+}
+
+.menu-btn:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.menu-btn i{
+  font-size: 1.5em;
+  transform: rotate(45deg);
+  
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="categories">
+
+  <div class="categories-container">
+                  <a href="https://www.auraiya.online">
+                    <div class="category card" style="box-shadow: 0px 15px 20px -10px rgba(252, 186, 47, 0.5);">
+                      <h2>Recent</h2>
+                    </div>
+                  </a>
+
+
+ 
+                  <a href="/category/">
+                    <div class="category card" style="background-image: url('img/categories/travel.jpg'); box-shadow: 0px 15px 20px -10px rgba(128, 213, 250, 0.5);">
+                      <h2>Sadar</h2>
+                    </div>
+                  </a>
+                  <a href="/category/">
+                    <div class="category card" style="background-image: url('img/categories/music.jpg'); box-shadow: 0px 15px 20px -10px rgba(231, 0, 70, 0.5);">
+                      <h2>Ajitmal</h2>
+                    </div>
+                  </a>
+
+
+                  <a href="/category/">
+                    <div class="category card" style="background-image: url('img/categories/gaming.jpg'); box-shadow: 0px 15px 20px -10px rgba(37, 57, 155, 0.5);">
+                      <h2>Bidhuna</h2>
+                    </div>
+                  </a>
+
+
+</div>
+
+                </div>
+
+
+
+
+<center>
+    <div class="drawer">
+        <span><i class="fal fa-home"></i></span>
+        <span><i class="fal fa-tools"></i> </span>
+        <div class="menu-btn"><i class="fas fa-comments"></i></div>
+        <span><!-- space icon --></span>
+        <span><i class="fal fa-chart-bar"></i></span>
+        <span><i class="fal fa-sticky-note"></i> </span>
+      </div>
+</center>
+
+
+
+<script>
+function load(thediv, thefile) /* 2 parameters passed into here: the id of the div container and the name of the page to go to */
+{   
+    if (window.XMLHttpRequest)
+    {
+        xmlhttp = new XMLHttpRequest(); 
+    }
+    else
+    {
+        xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');   
+    }
+     
+    xmlhttp.onreadystatechange = function()
+    {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+        {
+            document.getElementById( thediv ).innerHTML = xmlhttp.responseText; 
+        }
+    }   
+ 
+    xmlhttp.open('GET', thefile, true);
+    xmlhttp.send();
+         
+}
+</script>
+</body>
+</html>

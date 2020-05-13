@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Auraiya Online</title>
+  <title>Shivpuri Samachar</title>
   <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.7.0/css/all.css'>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,11 @@
 
 <style>
 html, body{
-  width: 600px;
+  width: 480px;
   margin: auto;
 }
+	
+	
 
 .categories{
  border: 1px solid #f6f6f6; 
@@ -65,7 +67,7 @@ html, body{
   height:80px;
   position: fixed;
   bottom: 0px;
-  width: 600px;
+  width: 480px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   z-index: 5;
@@ -128,11 +130,15 @@ html, body{
 </head>
 
 <body>
+  
+  
+  
+  
 
 <div class="categories">
 
   <div class="categories-container">
-                  <a href="https://www.auraiya.online">
+                  <a href="#">
                     <div class="category card" style="box-shadow: 0px 15px 20px -10px rgba(252, 186, 47, 0.5);">
                       <h2>Recent</h2>
                     </div>
@@ -140,20 +146,20 @@ html, body{
 
 
  
-                  <a href="/category/">
-                    <div class="category card" style="background-image: url('img/categories/travel.jpg'); box-shadow: 0px 15px 20px -10px rgba(128, 213, 250, 0.5);">
+                  <a href="#">
+                    <div class="category card" style="background-image: url('#'); box-shadow: 0px 15px 20px -10px rgba(128, 213, 250, 0.5);">
                       <h2>Sadar</h2>
                     </div>
                   </a>
-                  <a href="/category/">
-                    <div class="category card" style="background-image: url('img/categories/music.jpg'); box-shadow: 0px 15px 20px -10px rgba(231, 0, 70, 0.5);">
+                  <a href="#">
+                    <div class="category card" style="background-image: url('#'); box-shadow: 0px 15px 20px -10px rgba(231, 0, 70, 0.5);">
                       <h2>Ajitmal</h2>
                     </div>
                   </a>
 
 
-                  <a href="/category/">
-                    <div class="category card" style="background-image: url('img/categories/gaming.jpg'); box-shadow: 0px 15px 20px -10px rgba(37, 57, 155, 0.5);">
+                  <a href="#">
+                    <div class="category card" style="background-image: url('#'); box-shadow: 0px 15px 20px -10px rgba(37, 57, 155, 0.5);">
                       <h2>Bidhuna</h2>
                     </div>
                   </a>
@@ -163,46 +169,36 @@ html, body{
 
                 </div>
 
+  <center>
+  
+  <div style="width: 100%; height: 250px; background-color: #1a73e8; max-width: 480px;"></div>
+  
 
-
-
-<center>
     <div class="drawer">
+      
+	    <a href="#">
         <span><i class="fal fa-home"></i></span>
+	    </a>
+	    
+	    	    <a href="#">
         <span><i class="fal fa-tools"></i> </span>
+	    </a>
+	    
+	    
         <div class="menu-btn"><i class="fas fa-comments"></i></div>
         <span><!-- space icon --></span>
+	    
+	    	    <a href="#">
         <span><i class="fal fa-chart-bar"></i></span>
+	    </a>
+	    
+	    	    <a href="#">
         <span><i class="fal fa-sticky-note"></i> </span>
+	    </a>
       </div>
 </center>
 
 
 
-<script>
-function load(thediv, thefile) /* 2 parameters passed into here: the id of the div container and the name of the page to go to */
-{   
-    if (window.XMLHttpRequest)
-    {
-        xmlhttp = new XMLHttpRequest(); 
-    }
-    else
-    {
-        xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');   
-    }
-     
-    xmlhttp.onreadystatechange = function()
-    {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
-        {
-            document.getElementById( thediv ).innerHTML = xmlhttp.responseText; 
-        }
-    }   
- 
-    xmlhttp.open('GET', thefile, true);
-    xmlhttp.send();
-         
-}
-</script>
 </body>
 </html>
